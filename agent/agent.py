@@ -62,7 +62,7 @@ async def entrypoint(ctx: agents.JobContext):
     )
 
     await session.generate_reply(
-        instructions="Greet the user by saying welcome to Yalla Cooperative and let them know you can remember things for them."
+        instructions="Greet the user by saying welcome to Yalla Cooperative - we are a worker owned cooperative that builds tech for good - and let them know you can remember things for them."
     )
 
 
